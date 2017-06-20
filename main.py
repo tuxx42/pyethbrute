@@ -94,9 +94,8 @@ def __main__():
 
     number_of_procs = 200
 
-    skip_lines = 0 # 9075000
-    # number_of_lines = file_len('password.list')
-    number_of_lines = 1056250000
+    skip_lines = 0
+    number_of_lines = file_len('password.list')
 
     pool = Pool(number_of_procs)
     run = time.time()
