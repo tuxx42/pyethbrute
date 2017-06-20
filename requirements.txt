@@ -1,0 +1,2 @@
+bitcoin==1.1.42
+pycryptodome==3.4.6
